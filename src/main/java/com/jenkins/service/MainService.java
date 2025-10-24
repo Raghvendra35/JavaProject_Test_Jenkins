@@ -26,5 +26,12 @@ public class MainService
 	{
 		return list;
 	}
+
+
+		
+	public int addTwo(int a,int b)
+	{
+		return a+b;
+	}
 	
 }
