@@ -15,7 +15,7 @@ class TestJenkinsSpringBootApplicationTests {
 	{
 		MainService mainService=new MainService();
 		int result=mainService.addTwo(10, 20);
-		assertEquals(30,result);
+		assertEquals(31,result);
 	}
 
 }
