@@ -30,4 +30,10 @@ public class MainController
 	{
 		return mainService.getTheData();
 	}
+
+	@GetMapping("/test")
+	public String test()
+	{
+       return "First commit !!!";
+	}
 }
