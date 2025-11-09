@@ -30,4 +30,9 @@ public class MainController
 	{
 		return mainService.getTheData();
 	}
+	@GetMapping()
+	public String getTest()
+	{
+		return "It is running it";
+	}
 }
