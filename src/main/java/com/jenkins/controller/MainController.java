@@ -25,7 +25,7 @@ public class MainController
 		return "Save the Records";
 	}
 	
-	@GetMapping
+	@GetMapping("/get")
 	public List<Map<String,Object>> getTheData()
 	{
 		return mainService.getTheData();
